@@ -23,8 +23,8 @@ function Fetch() {
         })
     }, [])
   return (
-    <div>
-        <h1> Product List </h1>
+    <div style={{textAlign:'left'}}>
+        <h1 style={{marginLeft: '30px'}}> Product List </h1>
         <ul>
             {
                 products.map(product => <li key={product.id}>
